@@ -1,0 +1,64 @@
+*{box-sizing: border-box;}
+body{
+    background-color: rgb(245, 243, 241);
+}
+.homepage{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homepageinput{
+    /* border: 1px solid grey; */
+   background-color: white;
+   /* width: 50%; */
+   padding: 30px;
+   font-size: 14px;
+
+  }
+  
+  .homepageinput h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .homepageinput p, h2 {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .nameinput{
+    padding: 10px;
+  }
+  .nameinput label {
+    display: block;
+    margin : 15px 0;
+
+  }
+  
+  .nameinput input {
+    border-radius: 5px;
+    border : 1px solid rgb(226, 211, 211);
+    width: 95%;
+    padding: 12px;
+    
+}
+
+.inputButton {
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+  }
+
+.inputButton:hover {
+    background-color: rgb(67, 23, 172);
+  }

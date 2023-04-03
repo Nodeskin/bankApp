@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 243, 241);
+}
+.walletContainer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.walletdetails {
+  /* border: 1px solid red; */
+  background-color: white;
+  /* width: 40%; */
+  padding: 30px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.walletBalance input {
+  font-size: 15px;
+  font-weight: 600px;
+  border-style: solid;
+  margin-bottom: 30px;
+}
+.walletBalance label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+
+.fundType {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.byTransfer {
+  margin-right: 20px;
+}
+
+.amount label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.amount input {
+  font-size: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+.cardDetails input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.description label{
+    display: block;
+    margin-bottom: 5px;
+}
+.description input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.proceedButton{
+    width: 100%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
